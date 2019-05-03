@@ -9,25 +9,31 @@ body, html {
   margin: 0;
 }
 
-.bg {
+.background {
   /* The image used */
   background-image: url("binary.jpg");
 
   /* Full height */
   height: 100%; 
+ 
 
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
- h1 {
-    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+
+h1 { 
+ font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+   position: absolute; 
+   top: 200px; 
+   left: 0; 
+   width: 100%; 
 }
 </style>
  
 <body>
-  <div class="bg"></div>
+  <div class="background"></div>
   <h1 id="header_username"></h1>
 
  <script src = 'entered.js?v=6' type="text/javascript">
