@@ -5,7 +5,7 @@ var QRCODE = {code:["290807019493"]};
            
      for (var i = 0; i < QRCODE.code.length ; i++)  { 
          
-       if ((form.QRCODE.value == QRCODE.code[i]))  { 
+       if ((form.QR_Code.value == QRCODE.code[i]))  { 
        
         valid = true;
         
@@ -14,7 +14,7 @@ var QRCODE = {code:["290807019493"]};
       else{
         
        
-      if (form.QRCODE.value !== QRCODE.code[i]){
+      if (form.QR_Code.value !== QRCODE.code[i]){
            alert("De opgegeven code klopt niet");          
            break;
            }
