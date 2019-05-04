@@ -22,7 +22,7 @@
 .header div span{
 	color: #FFFFFF !important;
 }
-.login{
+.QR_code{
 	position: absolute;
 	top: calc(50% - 75px);
 	left: calc(50% - 50px);
@@ -31,7 +31,7 @@
 	padding: 10px;
 	
 }
-.login input[type=text]{
+.QR_code input[type=text]{
 	width: 250px;
 	height: 30px;
 	background: #fff;
@@ -44,7 +44,7 @@
 	padding: 4px;
 }
 
-.login input[type=button]{
+.QR_code input[type=button]{
 	width: 260px;
 	height: 35px;
 	background: #fff;
@@ -58,17 +58,17 @@
 	padding: 6px;
 	margin-top: 10px;
 }
-.login input[type=button]:hover{
+.QR_code input[type=button]:hover{
 	opacity: 0.8;
 }
-.login input[type=button]:active{
+.QR_code input[type=button]:active{
 	opacity: 0.6;
 }
-.login input[type=text]:focus{
+.QR_codeQR_code input[type=text]:focus{
 	outline: none;
 	border: 1px solid #000;
 }
-.login input[type=button]:focus{
+.QR_codeQR_codeQR_code input[type=button]:focus{
 	outline: none;
 	border: 1px solid #000;
 }
@@ -133,9 +133,9 @@ table, th, td {
 			<div>QR<span>Code</span></div>
 		</div>
 		<br>
-		<form name="login">
-		<div class="login">
-				<input type="text" placeholder="QR-CODE" name="userid"><br>
+		<form name="confirmcode">
+		<div class="confirmcode">
+				<input type="text" placeholder="QR-CODE" name="QR_code"><br>
 				<input type="button" onclick="check(this.form)" value="CONFIRM CODE"/>
 			
 		</div>
