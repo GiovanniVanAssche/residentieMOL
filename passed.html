@@ -64,11 +64,11 @@
 .QR_code input[type=button]:active{
 	opacity: 0.6;
 }
-.QR_codeQR_code input[type=text]:focus{
+.QR_code input[type=text]:focus{
 	outline: none;
 	border: 1px solid #000;
 }
-.QR_codeQR_codeQR_code input[type=button]:focus{
+.QR_code input[type=button]:focus{
 	outline: none;
 	border: 1px solid #000;
 }
@@ -79,7 +79,11 @@
    color: #a18d6c;
 }
 body{
-  background: url(binary.jpg)no-repeat center fixed;
+  background: url(binary.jpg)no-repeat center center fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 table, th, td {
